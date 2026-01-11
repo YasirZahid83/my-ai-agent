@@ -1,0 +1,50 @@
+# In VS Code, create a new file called .gitignore
+```
+
+**Add this content:**
+```
+# Workspace - your personal work files (don't share these)
+workspace/
+
+# Sensitive information
+config/api-keys.json
+config/secrets.json
+*.env
+
+# Personal preferences (optional - include if you want to share)
+# config/preferences.json
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+.cache/
+
+# Python (if you have Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node modules (if you use JavaScript)
+node_modules/
